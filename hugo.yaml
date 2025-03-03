@@ -1,0 +1,39 @@
+baseURL: https://francisegg.github.io/
+languageCode: zh-tw
+title: Francis Huang's Page
+theme: PaperMod
+
+params:
+  # 基本設置
+  defaultTheme: auto # 可選 light, dark, auto
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowToc: true  # 修正大小寫錯誤
+  
+  # 首頁設置
+  profileMode:
+    enabled: true
+    title: "Francis Huang"
+    subtitle: "歡迎來到我的個人網站"
+    imageUrl: "/static/profile.jpeg" # 您可以在這裡添加個人照片的路徑
+    imageTitle: "個人照片"
+    buttons:
+      - name: 文章
+        url: posts
+      - name: 標籤
+        url: tags
+
+menu:
+  main:
+    - identifier: about
+      name: 關於
+      url: /about/
+      weight: 1
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 2
+    - identifier: tags
+      name: 標籤
+      url: /tags/
+      weight: 3
