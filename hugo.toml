@@ -1,5 +1,0 @@
-baseURL = 'https://francisegg.github.io/'
-languageCode = 'zh-tw'
-title = 'My New Hugo Site'
-theme = 'ananke'
-publishDir = "docs"
