@@ -1,4 +1,79 @@
 baseURL = 'https://francisegg.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '實塘'
 theme = 'PaperMod'
+
+# 基本設定
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+hasCJKLanguage = false  # 支援中文字數統計
+
+
+# PaperMod 主題設定
+[params]
+  # 網站基本資訊
+  description = "Francis's Blog"
+  author = "Francis Huang"
+  defaultTheme = "auto"  # light, dark, auto
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToC = false
+  
+  
+  # 首頁配置
+  [params.profileMode]
+    enabled = true
+    title = "歡迎來到實塘"
+    subtitle = "一個只說實話的池塘 by Francis Huang"
+    imageUrl = "/images/cover.jpg"    # 封面圖片路徑
+
+  # 社群媒體連結
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/francisegg"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:bm6hjj2020.tw@gmail.com"
+
+# 選單配置
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "歸檔"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "搜尋"
+    url = "/search/"
+    weight = 30
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]  # 必須添加 JSON 輸出以支援搜尋功能
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true      # 允許 HTML 標籤
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.highlighting]
+        enabled = true   # 啟用高亮擴展 
