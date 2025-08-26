@@ -18,11 +18,11 @@ hasCJKLanguage = false  # 支援中文字數統計
   description = "Francis's Blog"
   author = "Francis Huang"
   defaultTheme = "auto"  # light, dark, auto
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowToC = false
+  ShowToC = true
   
   
   # 首頁配置
