@@ -2,24 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>實塘</title>
-    <link>https://francisegg.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 實塘</description>
-    <generator>Hugo -- 0.141.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Apr 2025 15:34:28 +0800</lastBuildDate>
-    <atom:link href="https://francisegg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Aug 2025 00:01:06 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>纏與禪</title>
+      <link>http://localhost:1313/posts/teatalk/</link>
+      <pubDate>Sun, 17 Aug 2025 00:01:06 +0800</pubDate>
+      <guid>http://localhost:1313/posts/teatalk/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我在日復一日的工作中迷失自我了&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;前陣子接下了一個比較完整的專案，簡單來說就是幫客戶規劃新的架構。
+但因為這段技術在台灣市場還沒有人開始做，所以我根本對此毫無頭緒&lt;/p&gt;
+&lt;p&gt;帶我的前輩總是跟我說，不要給自己太大的壓力，但我知道這部分已經遠遠超出我的能力水平，但我還是希望可以透過這個專案做出屬於自己的成果。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;前情提要&#34;&gt;前情提要&lt;/h2&gt;
+&lt;h3 id=&#34;風平浪靜&#34;&gt;風平浪靜&lt;/h3&gt;
+&lt;p&gt;一切似乎都進行得很順利，也找到了一些公司的內部資料可以做使用，當時的我覺得自己十拿九穩。到了第二個禮拜，漸漸的發現&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;暴風來襲&#34;&gt;暴風來襲&lt;/h3&gt;
+&lt;p&gt;我發現到我雖然手上有了資料有了內容，但我卻無法將這些內容轉化成簡報或是有邏輯的內容，在這個時候我漸漸開始害怕了。隨著時間推進，原本我以為還有時間去做，但突如其來的各種專案如雪花般飄來，這個時候的我已經是站在懸崖邊上了。&lt;/p&gt;
+&lt;h3 id=&#34;跌入深淵&#34;&gt;跌入深淵&lt;/h3&gt;
+&lt;p&gt;壓垮我最後的一根稻草是一場分享會的簡報，當時候我做了很多版但大家都還覺得差了點，這兩大壓力加在一起變讓我在前一天晚上體會到恐慌發作的可怕。呼吸急促、頭昏眼花、腦袋像是被金箍棒緊緊圈住一樣，當時的我甚至一度以為我就要這樣倒下。&lt;/p&gt;
+&lt;h3 id=&#34;置死地而回生&#34;&gt;置死地而回生&lt;/h3&gt;
+&lt;p&gt;後來隔天，我在分享會結束後就早早閃人，但到家之後仍然是渾身不對勁(By the way 那天颱風快來了)，於是我就決定說走就走出發去看流星雨&lt;/p&gt;
+&lt;h2 id=&#34;回到茶本身&#34;&gt;回到茶本身&lt;/h2&gt;
+&lt;h3 id=&#34;尋找明燈&#34;&gt;尋找明燈&lt;/h3&gt;</description>
+    </item>
     <item>
       <title>定窯初上手</title>
-      <link>https://francisegg.github.io/posts/%E5%AE%9A%E7%AA%AF%E5%88%9D%E4%B8%8A%E6%89%8B/</link>
+      <link>http://localhost:1313/posts/%E5%AE%9A%E7%AA%AF%E5%88%9D%E4%B8%8A%E6%89%8B/</link>
       <pubDate>Mon, 21 Apr 2025 15:34:28 +0800</pubDate>
-      <guid>https://francisegg.github.io/posts/%E5%AE%9A%E7%AA%AF%E5%88%9D%E4%B8%8A%E6%89%8B/</guid>
+      <guid>http://localhost:1313/posts/%E5%AE%9A%E7%AA%AF%E5%88%9D%E4%B8%8A%E6%89%8B/</guid>
       <description>&lt;p&gt;前幾天參加了佳士得在萬豪酒店所舉辦的春季拍賣預展，其中焦點便是我上手了人生第一個定窯瓷器。
 在談到我的心得之前想先跟各位介紹定窯的歷史與幾個辨別重點&lt;/p&gt;
 &lt;h2 id=&#34;何為定窯與其起源&#34;&gt;何為定窯與其起源？&lt;/h2&gt;
 &lt;p&gt;定窯為古代五大名窯之一，與汝官哥鈞齊名。其中又因當初燒製數量最多，因此也較常於拍賣市面上出現與流通，其中最具識別性便是其白色釉料。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;起源於唐代，並在北宋時期達大盛，後止於元朝。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;起源於唐代，並在北宋時期達大盛，後止於元朝。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;定窯辨別重點&#34;&gt;定窯辨別重點&lt;/h2&gt;
 &lt;p&gt;由於定窯的辨別實在是關聯到太多細節，因此在這邊大致提幾個重點&lt;/p&gt;
 &lt;ol&gt;
@@ -36,13 +58,13 @@
 &lt;h2 id=&#34;重頭戲&#34;&gt;重頭戲&lt;/h2&gt;
 &lt;h3 id=&#34;本次上手物件定窯刻蓮花葵口盌&#34;&gt;本次上手物件：定窯刻蓮花葵口盌&lt;/h3&gt;
 &lt;h3 id=&#34;估值52000---77000-usd&#34;&gt;估值：52.000 - 77,000 USD&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://francisegg.github.io/images/%E5%AE%9A%E7%AA%AF/IMG_9506.jpeg&#34;&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%E5%AE%9A%E7%AA%AF/IMG_9506.jpeg&#34;&gt;
 器件全貌
-&lt;img loading=&#34;lazy&#34; src=&#34;https://francisegg.github.io/images/%E5%AE%9A%E7%AA%AF/IMG_9507.jpeg&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%E5%AE%9A%E7%AA%AF/IMG_9507.jpeg&#34;&gt;
 底款
-&lt;img loading=&#34;lazy&#34; src=&#34;https://francisegg.github.io/images/%E5%AE%9A%E7%AA%AF/IMG_9508.jpeg&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%E5%AE%9A%E7%AA%AF/IMG_9508.jpeg&#34;&gt;
 芒口與葵口(1)
-&lt;img loading=&#34;lazy&#34; src=&#34;https://francisegg.github.io/images/%E5%AE%9A%E7%AA%AF/IMG_9509.jpeg&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%E5%AE%9A%E7%AA%AF/IMG_9509.jpeg&#34;&gt;
 芒口與葵口(2)&lt;/p&gt;
 &lt;h2 id=&#34;心得&#34;&gt;心得&lt;/h2&gt;
 &lt;p&gt;之所以這次選擇上手這款是因為之前在故宮博物館已經隔著櫥窗看過好幾次了，而其實這次的預展我也沒有想到會有這樣的機會，只是想說既然都來了也別空手而歸隨口就問了工作人員是否可以上手近距離觀賞，令我初期的就是工作人員居然就直接引到我進到裡面的座位坐下靜靜觀賞，我想這也是拍賣的好處吧，以往只能在博物館裡只可遠觀的器件，如今真真實實的出現了在我的手上，這種感覺只能用好不真實來形容，也希望在這段時間繼續加強自己對於這些器物的鑒賞力，以期下次有機會再次遇到時能夠窺探到其中更多的奧妙。&lt;/p&gt;
@@ -50,9 +72,9 @@
     </item>
     <item>
       <title>清翫雅集</title>
-      <link>https://francisegg.github.io/posts/%E6%B8%85%E7%BF%AB%E9%9B%85%E9%9B%86/</link>
+      <link>http://localhost:1313/posts/%E6%B8%85%E7%BF%AB%E9%9B%85%E9%9B%86/</link>
       <pubDate>Mon, 24 Mar 2025 01:30:45 +0800</pubDate>
-      <guid>https://francisegg.github.io/posts/%E6%B8%85%E7%BF%AB%E9%9B%85%E9%9B%86/</guid>
+      <guid>http://localhost:1313/posts/%E6%B8%85%E7%BF%AB%E9%9B%85%E9%9B%86/</guid>
       <description>&lt;h1 id=&#34;緣起&#34;&gt;緣起&lt;/h1&gt;
 &lt;p&gt;在此首先特別感謝 Fiona 老師告訴我這場展覽，也感謝導覽員 常金蘭 老師在短暫的兩小時導覽中帶給我們如此生靈豐富的介紹。鑒於觀後大受震驚且充滿想法，應運而生了這篇。&lt;/p&gt;
 &lt;p&gt;這次特展分為
@@ -65,7 +87,7 @@
 &lt;h2 id=&#34;1f-大廳&#34;&gt;1F 大廳&lt;/h2&gt;
 &lt;p&gt;常老師開場介紹的是兩個鬥彩球型瓶。我之前雖然已經對鬥彩與粉彩有稍加研究，但經過這次老師的介紹我才發現原來是如此容易理解與分辨的！&lt;/p&gt;
 &lt;h3 id=&#34;鬥彩開場&#34;&gt;鬥彩開場&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://francisegg.github.io/images/%E9%AC%A5%E5%BD%A9%E5%9C%98%E8%8A%B1.jpg&#34;&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%E9%AC%A5%E5%BD%A9%E5%9C%98%E8%8A%B1.jpg&#34;&gt;
 在這次展覽中兩者雖都是鬥彩，但在風格上是截然不同的，很遺憾的我只記得我眼前所看到的 &lt;strong&gt;鬥彩團花福山壽海天球瓶&lt;/strong&gt;，但足以震撼我的眼睛，曾經在故宮裡只可遠觀的骨董，如能以那不到一臂之距觀賞是如何震撼。&lt;/p&gt;
 &lt;h3 id=&#34;粉彩的世界&#34;&gt;粉彩的世界&lt;/h3&gt;
 &lt;p&gt;隨著老師的移動，我們進到了鬥彩的鄰居：粉彩，較於鬥彩，粉彩多了一絲柔感，也更來的自然，本次所展出的&lt;strong&gt;粉彩玉蘭牡丹球形瓶&lt;/strong&gt;(好其實我忘記名字了)中，透過老師的引導，從右側的牡丹到左側脖子上的玉蘭，無一處不顯現這部作品的天技。&lt;/p&gt;
@@ -76,7 +98,7 @@
 &lt;h2 id=&#34;103&#34;&gt;103&lt;/h2&gt;
 &lt;p&gt;面對大廳的右手邊是103廳，裡面展出的是早期西畫，如畢卡索等畫家，透過老師的介紹得以讓我們窺探當時這些作家在創作時的心路歷程與想法。其中最有印象的屬詹姆斯．迪索的「&lt;strong&gt;屏風與少女&lt;/strong&gt;」了&lt;/p&gt;
 &lt;h3 id=&#34;貴族對異國風情的好奇&#34;&gt;貴族對異國風情的好奇&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://francisegg.github.io/images/%E5%B0%91%E5%A5%B3%E8%A7%80%E5%B1%8F.jpg&#34;&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%E5%B0%91%E5%A5%B3%E8%A7%80%E5%B1%8F.jpg&#34;&gt;
 屏風與少女看上去相較其他的畫作整體的畫風非常黯淡，留下了兩個少女高光的側臉，由於詹姆斯屬於寫實派作家，因此可以在這當中看到滿滿的細節，好不過癮！&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;暫時的結尾&#34;&gt;暫時的結尾&lt;/h1&gt;
@@ -96,31 +118,44 @@
 &lt;h3 id=&#34;金魚&#34;&gt;金魚&lt;/h3&gt;
 &lt;p&gt;隨著腳步移動，來到了一幅橘色的畫作前，嗯&amp;hellip;&amp;hellip;這不就是金魚在魚缸中游泳嗎？如果你這麼想，那就只能說是大錯特錯，而這也是常玉最厲害的表現技法&amp;ndash;肌理。仔細一看，透過她的筆觸與刷塗方向，營造出一種很和諧而且可以引導觀賞者的感覺。其中，發現了嗎！再畫中央的金魚尾巴部分出現了一些蛛絲馬跡，原來那是金魚游過的水痕，聽到這時，我全身起了雞皮疙瘩，那是需要多少的經驗累積與觀察才能在畫中表現出這樣的感覺！&lt;/p&gt;
 &lt;p&gt;毫無疑問，這幅畫也成了我在這次展覽中最喜歡的畫作
-&lt;img loading=&#34;lazy&#34; src=&#34;https://francisegg.github.io/images/%E9%87%91%E9%AD%9A.jpg&#34;&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%E9%87%91%E9%AD%9A.jpg&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;人生無極&#34;&gt;人生無極&lt;/h3&gt;
 &lt;p&gt;接著是趙無極老師的作品，當我第一眼看到時，只覺得是雜亂無序的畫作。但透過常老師的介紹，原來這次展出畫作分別是趙無極老師在甲骨文時期與三段時期的畫作。&lt;/p&gt;
 &lt;p&gt;其中三段時期是需要以Ｃ的角度去觀賞，從事件發生的「始」到「末」都是依循規律去發展繪畫的，且這些都會持續的循環發生。
-&lt;img loading=&#34;lazy&#34; src=&#34;https://francisegg.github.io/images/%E7%84%A1%E6%A5%B5.jpeg&#34;&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%E7%84%A1%E6%A5%B5.jpeg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;結語&#34;&gt;結語&lt;/h2&gt;
 &lt;p&gt;這次的展覽我只能用&lt;strong&gt;相見恨晚&lt;/strong&gt;來形容，倘若能早幾天來觀賞，相信我會對這些內容有更深刻的體會，但也很幸運遇見了常金蘭老師，透過他的講解讓我在這些藝術品中發現了這麼多的細節。希望在未來可以再次聽到常老師的導覽！&lt;/p&gt;
 &lt;p&gt;4/21 15:30 壺人 謹筆&lt;/p&gt;</description>
     </item>
     <item>
+      <title>進入心流的四種技巧</title>
+      <link>http://localhost:1313/posts/entry_mindflow/</link>
+      <pubDate>Sun, 09 Mar 2025 23:42:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/entry_mindflow/</guid>
+      <description>&lt;p&gt;心流，一個我們常聽到的名詞。也許已經有許多人體會過這樣的狀態，例如我們在做一件事時如果進入了心流狀態，那我們將會提高許多倍的效率。&lt;/p&gt;
+&lt;p&gt;接下來就讓我們一起來看看四個進入心流的技巧吧！&lt;/p&gt;
+&lt;h2 id=&#34;1-縮短即將去做的時間&#34;&gt;1. 縮短即將去做的時間&lt;/h2&gt;
+&lt;p&gt;許多人都會有 &lt;strong&gt;「等一下」&lt;/strong&gt; 的習慣，但這恰巧是導致行動力持續低下的原因，因為在等一下的同時周遭還有許多的干擾，因此很容易等一下就「忘記」了。&lt;/p&gt;
+&lt;p&gt;我個人會使用的幾個小技巧是身邊隨時放個&lt;strong&gt;便條紙&lt;/strong&gt;或是用手機的記事本記錄下靈光一現需要完成的項目。&lt;/p&gt;
+&lt;p&gt;這部分個人首推便條紙，因為實體的東西往往可以更快讓人專注在上面；並非說手機紀錄就不好，而是因為現在的手機功能太過豐富，容易導致拿起手機卻是在做別的事。如此一來便很容易分神去做其他的項目，等到要回來做剛剛的事時往往已經過了半小時。&lt;/p&gt;
+&lt;h2 id=&#34;2-即時反饋&#34;&gt;2. 即時反饋&lt;/h2&gt;
+&lt;h2 id=&#34;3-排除干擾&#34;&gt;3. 排除干擾&lt;/h2&gt;
+&lt;h2 id=&#34;4-做熱愛的事&#34;&gt;4. 做熱愛的事&lt;/h2&gt;</description>
+    </item>
+    <item>
       <title>八黑石法則</title>
-      <link>https://francisegg.github.io/posts/eight_stone/</link>
+      <link>http://localhost:1313/posts/eight_stone/</link>
       <pubDate>Fri, 07 Mar 2025 18:01:14 +0800</pubDate>
-      <guid>https://francisegg.github.io/posts/eight_stone/</guid>
+      <guid>http://localhost:1313/posts/eight_stone/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;英文稱作 &lt;strong&gt;8 Black Stone&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;英文稱作 &lt;strong&gt;8 Black Stone&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;將上班時的每個小時視為一顆為其中的黑子&lt;/p&gt;
 &lt;p&gt;代表上班的八個小時&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;具體實現方式&#34;&gt;具體實現方式&lt;/h2&gt;
 &lt;h3 id=&#34;早上四小時&#34;&gt;早上四小時&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;分配給專注工作&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;分配給專注工作&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;在這期間不受任何打擾，用最高的產力做事&lt;/p&gt;
 &lt;p&gt;ex. &lt;strong&gt;開發程式碼、製作簡報&lt;/strong&gt; 等需要高度專注去產出的成果&lt;/p&gt;
 &lt;h3 id=&#34;下午前兩個小時&#34;&gt;下午前兩個小時&lt;/h3&gt;
@@ -130,6 +165,70 @@
 &lt;h3 id=&#34;最後一個小時&#34;&gt;最後一個小時&lt;/h3&gt;
 &lt;p&gt;如果做完了以上的事情還有時間，那就拿這個時間去幫助其他人&lt;/p&gt;
 &lt;p&gt;相信我 在未來會收到更多的回報的&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ATCC 工作坊心得整理</title>
+      <link>http://localhost:1313/posts/atcc/</link>
+      <pubDate>Wed, 05 Mar 2025 12:23:13 +0800</pubDate>
+      <guid>http://localhost:1313/posts/atcc/</guid>
+      <description>&lt;!-- 
+&lt;style&gt;
+
+
+h1{
+    background: #1e3a5f; 
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+h2{
+    background: #3F6295;
+    background: -webkit-linear-gradient(to right, #5276B3, #4D9FCD, #5FAFEF);   
+    background: linear-gradient(to right, #5276B3, #4D9FCD, #5FAFEF); 
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+h3{
+    background: #6689b6;
+    background: -webkit-linear-gradient(to right, #5D9CEC, #A0D8EF, #6DAEDB); 
+    background: linear-gradient(to right, #5D9CEC, #A0D8EF, #6DAEDB); 
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+h4{
+    background: #a3c1e1;
+    background: -webkit-linear-gradient(to right, #A0C4FF, #D0E8FF, #E8F4FF); 
+    background: linear-gradient(to right, #A0C4FF, #D0E8FF, #E8F4FF); 
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+body{
+    color: #696969;
+}
+&lt;/style&gt; --&gt;
+&lt;h2 id=&#34;4種思維&#34;&gt;4種思維&lt;/h2&gt;
+&lt;h3 id=&#34;1以終為始&#34;&gt;1.以終為始&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;沒有目標就沒有解法&lt;/strong&gt;
+&lt;strong&gt;首要釐清目的&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的第一篇文章</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;這是我的第一篇文章內容。&lt;/p&gt;
+&lt;h1 id=&#34;test-t1&#34;&gt;Test T1&lt;/h1&gt;
+&lt;h2 id=&#34;t2-word&#34;&gt;T2 word&lt;/h2&gt;
+&lt;h3 id=&#34;t3-model&#34;&gt;T3 model&lt;/h3&gt;
+&lt;h4 id=&#34;t4-subtitle&#34;&gt;T4 subtitle&lt;/h4&gt;
+&lt;h5 id=&#34;is-there-have-t5&#34;&gt;Is there have T5?&lt;/h5&gt;
+&lt;p&gt;small than normal word&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
