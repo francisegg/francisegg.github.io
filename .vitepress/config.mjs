@@ -24,11 +24,8 @@ function getArticles() {
 export default defineConfig({
   title: "霜田的個人網頁",
   themeConfig: {
-    sidebar: {
-      '/articles/': [{
-        text: '文章列表',
-        items: getArticles() // 使用安全讀取的函式
-      }]
+nav: [
+      { text: '首頁', link: '/' }
+      ]
     }
-  }
-})
+  })

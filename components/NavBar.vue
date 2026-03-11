@@ -4,13 +4,19 @@
     <nav>
       <ul>
         <li><a href="/">首頁</a></li>
-        <li><a href="/articles/">文章</a></li>
+        <li><a href="#about">關於</a></li>
+        <li><a href="#works">作品</a></li>
       </ul>
     </nav>
   </header>
 </template>
 
 <style scoped>
+
+html {
+  scroll-behavior: smooth;
+}
+
 .custom-header {
   position: fixed;
   top: 0; left: 0; width: 100%;
