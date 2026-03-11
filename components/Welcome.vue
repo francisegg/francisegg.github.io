@@ -37,7 +37,7 @@ onMounted(() => { setTimeout(() => { showWelcome.value = false }, 1800) })
 .hero { position: relative; height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
 .bg-image {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-  background-image: linear-gradient(rgba(247, 244, 237, 0.3), rgba(247, 244, 237, 0.3)), url('/bg.jpg');
+  background-image: linear-gradient(rgba(247, 244, 237, 0.3), rgba(247, 244, 237, 0.3)), url('/cover_cup.jpg');
   background-size: cover; background-position: center; z-index: 0;
 }
 .hero-content {
