@@ -61,16 +61,14 @@ const showWelcome = ref(true)
 // 作品資料清單
 const projects = [
   {
-    title: '作品標題一',
-    category: '# website',
-    description: '這裡寫一段關於作品的簡短介紹。例如：這是一個為某某品牌設計的官方網站，強調極簡與直覺的交互體驗。',
-    image: '/品茶要錄.jpg', 
+    title: '永安國小樂高機器人課程',
+    description: '協助校方規劃並執行樂高機器人課程，從基礎組裝到程式設計，激發學生對科技的興趣與創造力。',
+    image: '/S__27082908_0.jpg', 
     link: '#'
   },
   {
-    title: '作品標題二',
-    category: '# design',
-    description: '介紹你的第二個作品，描述你解決了什麼問題，或是設計的核心理念是什麼。',
+    title: '頭前國中無人機社團課程',
+    description: '協助校方規劃並執行無人機社團課程，從基礎飛行到應用開發，培養學生的科技素養與團隊合作精神。',
     image: '/頭前無人機社團.jpg',
     link: '#'
   }
