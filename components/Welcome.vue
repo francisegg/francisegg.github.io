@@ -75,35 +75,32 @@ const projects = [
 ]
 
 onMounted(async () => { 
-  // 解決重新整理頁面跳轉問題：強制手動控制捲動恢復並立刻置頂
+  // 解決重新整理頁面跳轉問題
   if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
   }
   await nextTick();
   window.scrollTo(0, 0);
 
-  // 開場動畫期間鎖定滾動，增加儀式感
+  // 開場動畫期間鎖定滾動
   document.body.style.overflow = 'hidden';
 
-  // 1.8秒後隱藏開場動畫並恢復捲動
+  // 1.8秒後隱藏開場動畫
   setTimeout(() => { 
     showWelcome.value = false;
     document.body.style.overflow = '';
   }, 1800);
 
-  // 建立 Intersection Observer 觀察器處理「浮現」動畫
+  // 建立 Intersection Observer
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        // 直接將 active 類別加在觀察對象上
         entry.target.classList.add('active');
-        // 觸發過一次後即停止觀察，節省效能
         observer.unobserve(entry.target);
       }
     });
   }, { threshold: 0.15 }); 
 
-  // 啟動觀察所有帶有 .reveal 類別的元素
   document.querySelectorAll('.reveal').forEach(el => {
     observer.observe(el);
   });
@@ -115,9 +112,10 @@ onMounted(async () => {
 
 /* --- 基礎容器與背景質感 --- */
 .song-theme-wrapper {
-  background-color: #F7F4ED;
-  /* 加入微弱的向心圓漸層，增加紙張深度感 */
-  background-image: radial-gradient(circle, transparent 50%, rgba(184, 166, 150, 0.1) 100%);
+  /* 💡 修改：加深背景色 */
+  background-color: #F2EDE4; 
+  /* 💡 修改：增強向心圓漸層（0.1 -> 0.2） */
+  background-image: radial-gradient(circle, transparent 50%, rgba(184, 166, 150, 0.2) 100%);
   font-family: 'Noto Serif TC', serif;
   color: #4A4641;
   position: relative;
@@ -132,30 +130,17 @@ onMounted(async () => {
   pointer-events: none;
   z-index: 1;
   background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
-  opacity: 0.08; /* 調高透明度讓紋理更清晰 */
-  mix-blend-mode: multiply; /* 讓紋理與底色融合 */
+  /* 💡 修改：加深紋路透明度（0.08 -> 0.15） */
+  opacity: 1; 
+  mix-blend-mode: multiply;
 }
 
-/* 裝飾性大字浮水印 (觀復) */
-.song-theme-wrapper::after {
-  content: "觀復";
-  position: fixed;
-  right: 5%;
-  top: 20%;
-  font-size: 20rem;
-  font-weight: 600;
-  color: #B8A696;
-  opacity: 0.04; /* 極淡的視覺效果 */
-  writing-mode: vertical-rl;
-  letter-spacing: 0.5em;
-  pointer-events: none;
-  z-index: 0;
-}
+/* 💡 已移除：裝飾性大字浮水印 (::after) */
 
 /* --- 開場動畫與 Hero 區 --- */
 #welcome-screen {
   position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
-  background-color: #F7F4ED; z-index: 9999; display: flex; justify-content: center; align-items: center;
+  background-color: #F2EDE4; z-index: 9999; display: flex; justify-content: center; align-items: center;
   transition: opacity 1.2s ease, visibility 1.2s ease;
 }
 #welcome-screen.fade-out { opacity: 0; visibility: hidden; }
@@ -204,7 +189,7 @@ onMounted(async () => {
   pointer-events: auto;
 }
 
-/* --- 作品集佈局 (交錯式圖文) --- */
+/* --- 作品集佈局 --- */
 .works-section {
   padding: 6rem 4rem;
   max-width: 1100px;
@@ -219,7 +204,7 @@ onMounted(async () => {
 .is-reverse { flex-direction: row-reverse; }
 
 .work-image {
-  flex: 0 0 50%; /* 💡 固定圖片寬度佔比 */
+  flex: 0 0 50%;
   max-width: 550px;
   overflow: hidden;
   border-radius: 8px;
@@ -237,7 +222,7 @@ onMounted(async () => {
 
 .work-info {
   flex: 1;
-  min-width: 320px; /* 💡 確保文字不被過度擠壓 */
+  min-width: 320px;
   text-align: left;
 }
 .work-category { font-size: 0.9rem; color: #869D96; letter-spacing: 0.1em; }
@@ -249,12 +234,10 @@ onMounted(async () => {
 }
 .more-link:hover { color: #869D96; border-color: #869D96; letter-spacing: 0.15em; }
 
-/* RWD 手機版適應 */
 @media (max-width: 1000px) {
   .work-card, .is-reverse { flex-direction: column !important; gap: 2.5rem; padding: 0 1rem; }
   .work-image { flex: none; width: 100%; max-width: 100%; }
   .work-info { min-width: auto; text-align: center; }
   .work-title { font-size: 1.5rem; }
-  .song-theme-wrapper::after { font-size: 10rem; right: 2%; } /* 手機版縮小浮水印 */
 }
 </style>

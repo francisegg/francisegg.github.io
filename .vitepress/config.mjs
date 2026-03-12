@@ -25,7 +25,8 @@ export default defineConfig({
   title: "霜田的個人網頁",
   themeConfig: {
 nav: [
-      { text: '首頁', link: '/' }
+      { text: '首頁', link: '/' },
+      { text: '關於我', link: '/about_me' }
       ]
     }
   })
