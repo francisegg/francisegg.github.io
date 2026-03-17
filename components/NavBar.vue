@@ -5,7 +5,8 @@
       <ul>
         <li><a href="/">首頁</a></li>
         <li><a href="/about_me">關於</a></li>
-        <li><a href="#works">作品</a></li>
+        <li><a href="/articles/">文章</a></li> 
+        <li><a href="/#works">作品</a></li>
       </ul>
     </nav>
   </header>
