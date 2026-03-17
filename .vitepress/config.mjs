@@ -24,7 +24,11 @@ function getArticles() {
 export default defineConfig({
   title: "霜田的個人網頁",
   head: [
-    ['link', { rel: 'preload', href: '/cover_cup.jpg', as: 'image' }]
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    // 💡 將 &display=swap 改成 &display=block
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600&display=block' }],
+    ['link', { rel: 'preload', href: '/cover_cup.webp', as: 'image' }]
   ],
   cleanUrls: true,
   themeConfig: {

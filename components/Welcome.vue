@@ -75,23 +75,25 @@ const projects = [
 ]
 
 onMounted(async () => { 
-  // 解決重新整理頁面跳轉問題
+  // 1. 基礎設定
   if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
   }
   await nextTick();
   window.scrollTo(0, 0);
-
-  // 開場動畫期間鎖定滾動
   document.body.style.overflow = 'hidden';
 
-  // 1.8秒後隱藏開場動畫
-  setTimeout(() => { 
+  // 💡 2. 核心邏輯：等待字體載入與定時器同時完成
+  const fontPromise = document.fonts.ready; // 等待所有字體下載完畢
+  const timerPromise = new Promise(resolve => setTimeout(resolve, 1800)); // 原有的 1.8 秒
+
+  // 當兩個 Promise 都完成時才執行
+  Promise.all([fontPromise, timerPromise]).then(() => {
     showWelcome.value = false;
     document.body.style.overflow = '';
-  }, 1800);
+  });
 
-  // 建立 Intersection Observer
+  // 3. 觀察器邏輯維持不變...
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
