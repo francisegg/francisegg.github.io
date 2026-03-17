@@ -148,9 +148,16 @@ onMounted(async () => {
 
 .hero { position: relative; height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
 .bg-image {
-  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  /* 💡 1. 加入底色 (深色調)，這樣沒圖時不會是一片死白 */
+  background-color: #1a1a1a; 
   background-image: linear-gradient(rgba(247, 244, 237, 0.3), rgba(247, 244, 237, 0.3)), url('/cover_cup.jpg');
-  background-size: cover; background-position: center; z-index: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  /* 💡 2. 增加一個淡入動畫效果 */
+  animation: fadeIn 1.5s ease-in-out;
 }
 .hero-content {
   position: relative; z-index: 1; background: rgba(247, 244, 237, 0.85); padding: 4rem;
@@ -217,6 +224,7 @@ onMounted(async () => {
   object-fit: cover;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color: #EFECE5;
 }
 .work-card:hover .work-image img { transform: scale(1.03); }
 
@@ -239,5 +247,10 @@ onMounted(async () => {
   .work-image { flex: none; width: 100%; max-width: 100%; }
   .work-info { min-width: auto; text-align: center; }
   .work-title { font-size: 1.5rem; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 </style>
