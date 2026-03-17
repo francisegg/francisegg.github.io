@@ -23,6 +23,9 @@ function getArticles() {
 
 export default defineConfig({
   title: "霜田的個人網頁",
+  head: [
+    ['link', { rel: 'preload', href: '/cover_cup.jpg', as: 'image' }]
+  ],
   cleanUrls: true,
   themeConfig: {
 nav: [
