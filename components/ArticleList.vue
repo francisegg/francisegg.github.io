@@ -34,10 +34,12 @@ import FooterSection from './FooterSection.vue'
 
 .list-page {
   min-height: 100vh;
-  background-color: #F2EDE4;
   font-family: 'Noto Serif TC', serif;
   padding-top: 120px;
   position: relative;
+  display: flex;         /* 💡 啟用 Flex 佈局 */
+  flex-direction: column; /* 💡 垂直排列 */
+  background-color: #F2EDE4;
 }
 
 .list-page::before {
@@ -52,11 +54,12 @@ import FooterSection from './FooterSection.vue'
 }
 
 .list-content {
+  flex: 1;               /* 💡 關鍵：自動撐開剩餘空間，將頁腳推到底部 */
   position: relative;
   z-index: 2;
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 4rem 2rem;
 }
 
 .page-title {

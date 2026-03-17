@@ -44,7 +44,30 @@ function formatDate(rawDate) {
 }
 </script>
 
+<style>
+/* 💡 全域重置：消除瀏覽器預設邊距 */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* 建議將背景色也設定在 body，防止頁面跳轉時出現白閃 */
+  background-color: #F2EDE4; 
+}
+
+/* 確保所有容器都不會溢出產生水平捲軸 */
+#app {
+  width: 100%;
+  overflow-x: hidden;
+}
+</style>
+
 <style scoped>
+/* 原有的 scoped 樣式保持不變... */
+</style>
+
+<style scoped>
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600&display=swap');
 
 .article-page {
