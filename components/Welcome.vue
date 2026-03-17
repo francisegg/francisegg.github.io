@@ -29,7 +29,7 @@
            class="work-card reveal" :class="{ 'is-reverse': index % 2 !== 0 }">
         
         <div class="work-image">
-          <img :src="project.image" :alt="project.title">
+          <img :src="project.image" :alt="project.title" loading="lazy">
         </div>
 
         <div class="work-info">
@@ -144,20 +144,26 @@ onMounted(async () => {
   transition: opacity 1.2s ease, visibility 1.2s ease;
 }
 #welcome-screen.fade-out { opacity: 0; visibility: hidden; }
-.welcome-text { font-size: 1.5rem; letter-spacing: 0.8em; writing-mode: vertical-rl; }
+.welcome-text { 
+  font-size: 1.5rem;
+  letter-spacing: 0.8em;
+  writing-mode: vertical-rl;
+  /* 💡 增加一個優先顯示的屬性 */
+  color: #4A4641;
+  z-index: 10000; 
+}
 
 .hero { position: relative; height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
 .bg-image {
 position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;
-  /* 💡 1. 加入底色 (深色調)，這樣沒圖時不會是一片死白 */
-  background-color: #1a1a1a; 
-  background-image: linear-gradient(rgba(247, 244, 237, 0.3), rgba(247, 244, 237, 0.3)), url('/cover_cup.jpg');
+  /* 💡 先顯示一個與圖片相近的深色底色，避免白閃 */
+  background-color: #2C2925; 
+  /* 💡 換成壓縮後的 WebP 格式 */
+  background-image: linear-gradient(rgba(247, 244, 237, 0.3), rgba(247, 244, 237, 0.3)), url('/cover_cup.webp');
   background-size: cover;
   background-position: center;
   z-index: 0;
-  /* 💡 2. 增加一個淡入動畫效果 */
-  animation: fadeIn 1.5s ease-in-out;
 }
 .hero-content {
   position: relative; z-index: 1; background: rgba(247, 244, 237, 0.85); padding: 4rem;
@@ -247,10 +253,5 @@ position: absolute;
   .work-image { flex: none; width: 100%; max-width: 100%; }
   .work-info { min-width: auto; text-align: center; }
   .work-title { font-size: 1.5rem; }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
 }
 </style>
